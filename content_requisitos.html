@@ -37,7 +37,51 @@ body			{font-size: 19px;}
 
 <body>
 <pre>
-Requisitos
+Requisitos:
+
+	Os requisitos de esforços e potência da máquina estão majorados de uma forma não confiá-
+	vel. ainda não foi encontrado um material prático que indique os parâmetros de usinagem 
+	empiricamente modelados para o processo idealizado. Foi utilizado uma calculadora da 
+	KENNAMETAL.
+
+	Os requisitos de corte são:
+	Avanço de corte de 4mm/s de uma fresa de 4 entradas, 10mm de diâmetro, 20mm de prfundid-
+	ade de corte, no aço 1020.
+	Deslocamento máximo da ferramenta durante esse corte, por efeito da rigidez mecânica da 
+	máquina: 0.05mm.
+	-Requisitos de esforços e spindle:
+		-360 N axial e tangencial
+		-2 Nm torque no sipindle
+		-1.5 kW potência no spidnle.
+
+	material brinell hardness AISI 1020,111,HB
+	Ultimate Strength AISI 1020,394,N/mm²
+
+	Machining properties,Goal.
+	d1 Effective cutting diameter,20,mm
+	z Number of inserts/cutter,4,Adm
+	Vc Cutting speed,157.08,m/mm
+	ap Axial Depth of cut,20,mm(DOC)
+	ae Radial width of cut,10,mm(WOC)
+	fz Required feed per tooth,0.01,mm
+	Cm Machinability factor,2.15,Adm
+	Cw Tool wear factor,1.1,Adm
+	E Machine efficiency factor,0.75,Adm
+
+	Machiining properties results.
+	n Spindle speed,2500,RPM
+	Vf Feed rate,100,mm/min
+	Reduced feed per tooth,0.01,mm/min
+	Fp Feed rate,100,mm/min
+	Q Metal removal rate,200,cm3/min
+	A Cross-sectional area of chip,0.2,mm2
+	zc Number of flutes in the cut,1,Adm
+	ae/d1 Ratio of radial width of cut to cutting diameter,0.5,Adm
+	Ft Tangential cutting force,186.362,N
+	T Torque at the cutter,1.86Nm
+	Ps at the cutter,0.78,kW
+	Pm at the motor,1.04,kW
+
 <pre>
 </body>
 
